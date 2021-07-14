@@ -8,6 +8,7 @@ const mainRouter=require("./routes/mainRouter");
 
 app.use("/",mainRouter);
 
+app.use("/",mainRouter);
 
 app.listen(port, ()=>{
     console.log("Servidor corriendo en puerto: "+ port)
